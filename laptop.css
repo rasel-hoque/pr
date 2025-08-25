@@ -1,0 +1,30 @@
+header{
+    background-color: #0a07ba;
+}
+.container{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu a{
+    display: inline;
+    padding: 5px 15px;
+    background-color: rgb(240, 155, 8);
+}
+.nav-menu a:hover{
+    background-color: crimson;
+}
+/* header section ends here */
+
+/* profile section starts here */
+.profile{
+    background-color: rgb(218, 194, 241);
+}
+.profile-desc{
+    width: 90%;
+}
+.profile-desc p{
+    font-size: 1.1rem;
+    color: rgb(208, 8, 8);
+}
+/* profile section ends here */

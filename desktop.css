@@ -1,0 +1,26 @@
+header{
+    background-color: #5d7022;
+}
+.container .header h1{
+    font-size: 3rem;
+}
+.nav-menu a{
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #fff;
+}
+/* header section ends here */
+
+/* profile section starts here */
+.profile{
+    background-color: rgb(203, 237, 226);
+}
+.profile-desc{
+    width: 70%;
+}
+.profile-desc p{
+    color: rgb(190, 125, 41);
+}
+/* profile section ends here */

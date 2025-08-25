@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;;
+}
+/* header section styles starts here */
+header{
+    background-color: rgb(86, 3, 94);
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.logo img{
+    padding: 15px;
+}
+.header h1{
+    padding: 20px 5px;
+    font-size: 1.5rem;
+}
+.nav-menu a{
+    color: white;
+    padding: 10px 5px;
+    display: block;
+    text-decoration: none;
+    background-color: crimson;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+}
+.nav-menu a:hover{
+    background-color: #fff;
+    color: black;
+}
+/* header section styles ends here */
+
+/* body section styles starts here */
+.profile{
+    padding: 120px 10px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(240, 194, 129);
+}
+.top-weather-icon{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    transition: ease-in 1s;
+}
+.top-weather-icon:hover{
+    transform: rotate(360deg);
+}
+.profile-desc{
+    margin: 30px auto;
+    width: 80%;
+    font-weight: bold;
+}
+.profile-desc h2{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profile-desc p{
+    color: rgb(104, 79, 227);
+    padding: 15px 10px;
+}
+.bottom-weather-icon{
+    position: absolute;
+    left: 30px;
+    transition: ease-in 1s;
+}
+.bottom-weather-icon:hover{
+    transform: rotate(360deg);
+}
+/* body section styles ends here */
